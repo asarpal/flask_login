@@ -1,8 +1,8 @@
-#Flask_login
+# Flask_login
 ## Flask Start up
   - In terminal run the command below to start and set up flask.
     `export FLASK_APP=project`
-    `flask run` 
+    `flask run`
 ## Creating DB
   - In terminal run below command to create DB.
     `>>> from project import db, create_app`
