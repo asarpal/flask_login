@@ -18,7 +18,7 @@
   - To hash passwords use the code below.
     `new_user=Users(email=em, name=name, password=generate_password_hash(password, method='sha256'))`
   - To check the hashed password with the normal password use the code below.
-    if not user or not check_password_hash(user.password, password):
-        return redirect(url_for('auth.login'))
-     else:
-         redirect(url_for('main.profile'))
+    `if not user or not check_password_hash(user.password, password):`
+        `return redirect(url_for('auth.login'))`
+     `else:`
+         `redirect(url_for('main.profile'))`
