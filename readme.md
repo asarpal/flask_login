@@ -4,9 +4,10 @@
     `export FLASK_APP=project`
     then
     `flask run`
-## Creating DB
-  - In terminal run below command to create DB.
-    `>>> from project import db, create_app`
+## Creating Data Base
+  - In terminal run below command to create Data Base.
+    `Python3`
+    `>>> from <foldername> import db, create_app`
     `>>> db.create_all(app=create_app())`
 ## Making Signup function
 ### Check if database already has the email id entered  
